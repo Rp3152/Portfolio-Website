@@ -178,24 +178,19 @@ export default function AboutPage() {
             >
               <ul className="space-y-4">
                 <li>
-                  <h4 className="font-semibold text-white">BSc in Computer Science</h4>
-                  <p className="text-gray-400">University of Technology, 2014-2018</p>
-                  <p className="text-gray-500 text-sm mt-2">Graduated with honors, focusing on web development, algorithms, and software engineering.</p>
+                  <h4 className="font-semibold text-white">Masters in Computer Applications</h4>
+                  <p className="text-gray-400">Chandigarh University, 2021-2023</p>
+                  <p className="text-gray-500 text-sm mt-2"> focusing on web development, algorithms, and software engineering.</p>
                 </li>
                 <li>
-                  <h4 className="font-semibold text-white">Web Development Bootcamp</h4>
-                  <p className="text-gray-400">Tech Academy, 2017</p>
-                  <p className="text-gray-500 text-sm mt-2">Intensive 12-week program on modern JavaScript frameworks and backend development.</p>
-                </li>
-                <li>
-                  <h4 className="font-semibold text-white">UI/UX Design Fundamentals</h4>
-                  <p className="text-gray-400">Design Institute, 2019</p>
-                  <p className="text-gray-500 text-sm mt-2">Certificate course on user interface design principles and user experience best practices.</p>
+                  <h4 className="font-semibold text-white">Bachelor of Computer Applications</h4>
+                  <p className="text-gray-400">Goverment PG College,Jind, 2017-2020</p>
+                  <p className="text-gray-500 text-sm mt-2">Database Management, Operating Systems, Computer Networks and Object-Oriented Programming</p>
                 </li>
               </ul>
             </InteractiveCard>
 
-            <InteractiveCard 
+            {/* <InteractiveCard 
               title="Certifications" 
               icon={<Award className="h-5 w-5" />}
             >
@@ -217,7 +212,7 @@ export default function AboutPage() {
                   <p className="text-gray-400">Scrum.org, 2019</p>
                 </li>
               </ul>
-            </InteractiveCard>
+            </InteractiveCard> */}
 
             <InteractiveCard 
               title="Experience" 
@@ -225,20 +220,18 @@ export default function AboutPage() {
             >
               <ul className="space-y-4">
                 <li>
-                  <h4 className="font-semibold text-white">Senior Full-Stack Developer</h4>
-                  <p className="text-gray-400">TechCorp, 2022-Present</p>
-                  <p className="text-gray-500 text-sm mt-2">Leading development of enterprise web applications using React, Node.js, and AWS.</p>
+                  <h4 className="font-semibold text-white">Mern Stack Developer</h4>
+                  <p className="text-gray-400">SmartData Enterprises Inc., October 2023-Augest 2024</p>
+                  <p className="text-gray-500 text-sm mt-2">Developed client projects using React,node.js, Express, and MySql..</p>
                 </li>
                 <li>
-                  <h4 className="font-semibold text-white">Full-Stack Developer</h4>
-                  <p className="text-gray-400">WebSolutions, 2020-2022</p>
-                  <p className="text-gray-500 text-sm mt-2">Developed client projects using React, Express, and MongoDB.</p>
-                </li>
-                <li>
-                  <h4 className="font-semibold text-white">Frontend Developer</h4>
-                  <p className="text-gray-400">StartupX, 2018-2020</p>
-                  <p className="text-gray-500 text-sm mt-2">Built responsive UIs using React and Redux.</p>
-                </li>
+                  <h4 className="font-semibold text-white">Upskill Program</h4>
+                  <p className="text-gray-400">Hoping Minds</p>
+                  <p className="text-gray-500 text-sm mt-2">
+                    Learned HTML/CSS, JavaScript, and React to build modern web applications.
+                    </p>
+</li>
+
               </ul>
             </InteractiveCard>
 
@@ -349,14 +342,14 @@ export default function AboutPage() {
                   className="bg-gray-900/70 border border-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg hover:border-blue-500 transition-all duration-300"
                   whileHover={{ scale: 1.05 }}
                 >
-                  <p className="text-gray-300 font-medium text-lg">TypeScript</p>
+                  <p className="text-gray-300 font-medium text-lg">Javascript</p>
                 </motion.div>
-                <motion.div
+                {/* <motion.div
                   className="bg-gray-900/70 border border-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg hover:border-blue-500 transition-all duration-300"
                   whileHover={{ scale: 1.05 }}
                 >
                   <p className="text-gray-300 font-medium text-lg">Next.js</p>
-                </motion.div>
+                </motion.div> */}
                 <motion.div
                   className="bg-gray-900/70 border border-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg hover:border-blue-500 transition-all duration-300"
                   whileHover={{ scale: 1.05 }}
@@ -385,7 +378,7 @@ export default function AboutPage() {
                   className="bg-gray-900/70 border border-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg hover:border-blue-500 transition-all duration-300"
                   whileHover={{ scale: 1.05 }}
                 >
-                  <p className="text-gray-300 font-medium text-lg">PostgreSQL</p>
+                  <p className="text-gray-300 font-medium text-lg">MYSQL</p>
                 </motion.div>
                 <motion.div
                   className="bg-gray-900/70 border border-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg hover:border-blue-500 transition-all duration-300"
@@ -393,24 +386,9 @@ export default function AboutPage() {
                 >
                   <p className="text-gray-300 font-medium text-lg">Git/GitHub</p>
                 </motion.div>
-                <motion.div
-                  className="bg-gray-900/70 border border-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg hover:border-blue-500 transition-all duration-300"
-                  whileHover={{ scale: 1.05 }}
-                >
-                  <p className="text-gray-300 font-medium text-lg">Docker</p>
-                </motion.div>
-                <motion.div
-                  className="bg-gray-900/70 border border-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg hover:border-blue-500 transition-all duration-300"
-                  whileHover={{ scale: 1.05 }}
-                >
-                  <p className="text-gray-300 font-medium text-lg">AWS</p>
-                </motion.div>
-                <motion.div
-                  className="bg-gray-900/70 border border-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg hover:border-blue-500 transition-all duration-300"
-                  whileHover={{ scale: 1.05 }}
-                >
-                  <p className="text-gray-300 font-medium text-lg">CI/CD</p>
-                </motion.div>
+               
+              
+                
                 {/* Soft Skills */}
                 <motion.div
                   className="bg-gray-900/70 border border-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg hover:border-blue-500 transition-all duration-300"
