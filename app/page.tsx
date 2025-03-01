@@ -75,7 +75,7 @@ export default function Home() {
               </div>
               <div className="flex gap-4 mt-10 justify-center md:justify-start">
                 <motion.a
-                  href="https://github.com"
+                  href="https://github.com/Rp3152"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-gray-800 text-gray-200 hover:bg-blue-500 hover:text-white transition-colors"
@@ -88,7 +88,7 @@ export default function Home() {
                   <Github className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="https://www.linkedin.com/in/rahul-pruthi-5112a3238"
+                  href="https://www.linkedin.com/in/rahul-pruthi-5112a3238/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-gray-800 text-gray-200 hover:bg-blue-500 hover:text-white transition-colors"
@@ -136,7 +136,7 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-blue-500/50 blur-3xl opacity-20 animate-pulse" />
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-gray-800/50">
                   <Image
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop"
+                    src="/rahul.jpeg"
                     alt="Rahul Pruthi"
                     fill
                     className="object-cover"
