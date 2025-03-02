@@ -7,65 +7,51 @@ import SectionHeading from "@/components/section-heading";
 import ProjectCard from "@/components/project-card";
 
 const projects = [
-  {
-    id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with user authentication, product management, and payment integration.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    category: "fullstack",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates and team collaboration features.",
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop",
-    tags: ["React", "Firebase", "Tailwind CSS"],
-    category: "frontend",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    id: 3,
-    title: "Real Estate Listing Platform",
-    description: "A property listing platform with advanced search, filtering, and user account management.",
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop",
-    tags: ["Next.js", "PostgreSQL", "AWS"],
-    category: "fullstack",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    id: 4,
-    title: "Weather Dashboard",
-    description: "A weather application that displays current and forecasted weather data with interactive visualizations.",
-    image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=2070&auto=format&fit=crop",
-    tags: ["JavaScript", "Weather API", "Chart.js"],
-    category: "frontend",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    id: 5,
-    title: "Content Management System",
-    description: "A custom CMS for managing blog posts, media, and user permissions with a modern admin interface.",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2069&auto=format&fit=crop",
-    tags: ["React", "Node.js", "MongoDB", "AWS S3"],
-    category: "fullstack",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    id: 6,
-    title: "RESTful API Service",
-    description: "A scalable RESTful API service with comprehensive documentation and authentication.",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop",
-    tags: ["Node.js", "Express", "MongoDB", "Swagger"],
-    category: "backend",
-    githubUrl: "https://github.com",
-  },
+
+    {
+      id: 1,
+      title: "Healthcare Management System",
+      description: "A full-stack healthcare management system with patient records, appointment scheduling.",
+      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop",
+      tags: ["React", "Node.js", "Express", "Sequelize"],
+      category: "fullstack",
+      githubUrl: "https://github.com/Rp3152/Healthcare-Management-System.git",
+    },
+
+  
+    {
+      id: 2,
+      title: "Personal Portfolio",
+      description: "A modern portfolio website showcasing projects, skills, and experience, built using React and Next.js.",
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2070&auto=format&fit=crop",
+      tags: ["React", "Next.js", "Tailwind CSS"],
+      category: "frontend",
+      liveUrl: "https://portfolio-website-mu-sage.vercel.app/",
+      githubUrl: "https://github.com/Rp3152/Portfolio-Website.git",
+    },
+    
+    {
+      id: 3,
+      title: "Padel Court Management System (Company Project)",
+      description: "Developed the admin and court owner panel for a padel court management system, focusing on frontend development within the company.",
+      image: "./paddle-court.webp",
+
+      tags: ["React", "Node.js", "MongoDB", "Express"],
+      category: "fullstack",
+      // liveUrl: "https://example.com",
+      // githubUrl: "https://github.com",
+    },
+    
+    {
+      id: 4,
+      title: "ProMenteProSup (Company Project)",
+      description: "Worked on the admin panel using Node.js and performed manual testing to ensure system reliability and performance.",
+      image:"./cleaning.jpg",
+      tags: ["Node.js", "Express", "Manual Testing", "MongoDB"],
+      category: "backend",
+      // liveUrl: "https://example.com",
+      // githubUrl: "https://github.com",
+    },
 ];
 
 export default function ProjectsPage() {

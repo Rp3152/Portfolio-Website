@@ -230,7 +230,7 @@ export default function AboutPage() {
                   <p className="text-gray-500 text-sm mt-2">
                     Learned HTML/CSS, JavaScript, and React to build modern web applications.
                     </p>
-</li>
+                </li>
 
               </ul>
             </InteractiveCard>
@@ -284,36 +284,31 @@ export default function AboutPage() {
           />
 
           <div className="max-w-4xl mx-auto">
-            <TimelineItem
-              year="2022 - Present"
-              title="Senior Full-Stack Developer at TechCorp"
-              description="Leading the development of enterprise web applications using React, Node.js, and AWS. Mentoring junior developers and implementing best practices."
-              icon={<Briefcase className="h-5 w-5 text-blue-400" />}
+          <TimelineItem
+           year="October 2023 - August 2024"
+            title="MERN Stack Developer at SmartData Enterprises Inc."
+            description="Developed client projects using React, Node.js, Express, and MySQL."
+           icon={<Briefcase className="h-5 w-5 text-blue-400" />}
             />
-            <TimelineItem
-              year="2020 - 2022"
-              title="Full-Stack Developer at WebSolutions"
-              description="Developed and maintained multiple client projects using React, Express, and MongoDB. Implemented CI/CD pipelines and improved application performance."
-              icon={<Briefcase className="h-5 w-5 text-blue-400" />}
+         <TimelineItem
+             year="Upskill Program"
+             title="Hoping Minds"
+             description="Learned HTML/CSS, JavaScript, and React to build modern web applications."
+            icon={<Briefcase className="h-5 w-5 text-blue-400" />}
             />
+
+           <TimelineItem
+             year="2021 - 2023"
+            title="Masters in Computer Applications at Chandigarh University"
+            description="Focusing on web development, algorithms, and software engineering."
+            icon={<Code className="h-5 w-5 text-blue-400" />}
+           />
+
             <TimelineItem
-              year="2018 - 2020"
-              title="Frontend Developer at StartupX"
-              description="Built responsive user interfaces using React and Redux. Collaborated with designers to implement pixel-perfect designs and animations."
+              year="2017 - 2020"
+              title="Bachelor of Computer Applications at Government PG College, Jind"
+              description="Database Management, Operating Systems, Computer Networks, and Object-Oriented Programming."
               icon={<Code className="h-5 w-5 text-blue-400" />}
-            />
-            <TimelineItem
-              year="2014 - 2018"
-              title="BSc in Computer Science"
-              description="Graduated with honors from University of Technology. Focused on web development, algorithms, and software engineering."
-              icon={<GraduationCap className="h-5 w-5 text-blue-400" />}
-            />
-            <TimelineItem
-              year="2017"
-              title="Web Development Certification"
-              description="Completed an intensive bootcamp focusing on modern JavaScript frameworks and backend development."
-              icon={<Award className="h-5 w-5 text-blue-400" />}
-              className="pb-0"
             />
           </div>
         </div>

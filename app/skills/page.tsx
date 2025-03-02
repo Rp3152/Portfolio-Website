@@ -119,8 +119,8 @@ export default function SkillsPage() {
       icon: <Database className="h-5 w-5" />,
       skills: [
         { name: "MongoDB", description: "Schema design, aggregation, indexing" },
-        { name: "PostgreSQL", description: "Relational modeling, complex queries" },
-        { name: "Redis", description: "Caching, pub/sub, data structures" },
+        { name: "MYSQL", description: "Relational modeling, complex queries" },
+        { name: "Sequelize", description: "ORM for Node.js, supports SQL databases" },
         { name: "Prisma/Mongoose", description: "ORM/ODM, migrations, relations" }
       ]
     }
@@ -263,7 +263,7 @@ export default function SkillsPage() {
           </motion.div>
         </AnimatePresence>
 
-        <AnimatedSection className="mt-20">
+        {/* <AnimatedSection className="mt-20">
           <SectionHeading
             title="Certifications"
             subtitle="Professional certifications and achievements"
@@ -316,7 +316,7 @@ export default function SkillsPage() {
               </motion.div>
             ))}
           </div>
-        </AnimatedSection>
+        </AnimatedSection> */}
       </div>
     </div>
   );
