@@ -62,12 +62,30 @@ export default function Home() {
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </MotionButton>
+                {/* <MotionButton 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full md:w-auto"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <Download className="mr-2 h-4 w-4" />
+                  Download CV
+                </MotionButton> */}
                 <MotionButton 
                   variant="outline" 
                   size="lg" 
                   className="w-full md:w-auto"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  onClick={() => {
+                    const link = document.createElement("a");
+                    link.href = "./resume.pdf"; // Ensure your CV file is stored in the public folder
+                    link.download = "./resume.pdf"; // The downloaded file name
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                  }}
                 >
                   <Download className="mr-2 h-4 w-4" />
                   Download CV
